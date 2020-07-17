@@ -1,0 +1,2 @@
+# RickandMortySpa
+Single page aplication
