@@ -1,27 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,800&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  background-color: #2b2c38;
+
   font-family: 'Open Sans', sans-serif;
 }
+.Header{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
 
 .Header-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0  2px white;
+  color:white;
+  width: 100%;
+  margin: 0;
+}
+.Header-logo h1{
+  margin: 0;
 }
 
-.Header a {
-  text-decoration: none;
-  color: #15302C;
+.Header a img{
+  width: 300px;
+  height: 100px;
 }
 
 .Main {
   padding: 10px;
-  grid-template-columns: minmax(auto, 976px);
+  grid-template-columns: minmax(auto, 1050px);
   display: grid;
   justify-content: center;
 }
@@ -31,6 +43,7 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+ 
 }
 
 .Characters-inner {
@@ -38,6 +51,10 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+
+
+  
+  
 }
 
 .Characters-card {
@@ -48,6 +65,9 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 5px white;
 }
 
 .Characters-card img {
@@ -58,44 +78,47 @@ body {
 
 .Characters-card h2 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 800;
   text-align: center;
 }
 
 .Characters-card h3 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 800;
   text-align: left;
   margin: 20px;
 }
 
-.Characters-item {
+.Character-item {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  box-shadow: 0 0 2px white;
 }
 
-.Characters-item img {
+.Character-item img {
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
 }
 
-.Characters-item h2 {
-  font-size: 18px;
-  font-weight: 300;
+.Character-item h2 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 800;
   padding: 5px 10px;
-  display: flex;
-  justify-content: space-between;
+ 
 }
 
-.Characters-item a {
+.Character-item a {
   text-decoration: none;
-  color: #026C86;
+  color: white;
+  width: 100%;
+  display: block;
 }
 
 @keyframes fade {

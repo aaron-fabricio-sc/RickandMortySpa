@@ -4,7 +4,7 @@ const Header = () =>{
             <div class="Header-logo">
                 <h1>
                     <a href='https://aaron-fabricio-sc.github.io/RickandMortySpa/'>
-                    100tifi.co
+                    <img src="https://hyperpix.net/wp-content/uploads/2020/04/rick-and-morty-logo-font-free-download.jpg">
                     </a>
 
                 </h1>
